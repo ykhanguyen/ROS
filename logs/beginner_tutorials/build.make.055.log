@@ -1,0 +1,12 @@
+[  0%] [  0%] Built target std_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[ 16%] Built target beginner_tutorials_generate_messages_cpp
+[ 50%] [ 66%] Built target beginner_tutorials_generate_messages_py
+Built target beginner_tutorials_generate_messages_lisp
+[ 66%] [ 75%] [ 75%] Built target beginner_tutorials_generate_messages
+Built target listener
+Built target beginner_tutorials_gencpp
+[ 83%] Built target talker
+[ 91%] Built target add_two_ints_client
+[100%] Built target add_two_ints_server

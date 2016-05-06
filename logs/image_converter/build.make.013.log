@@ -1,0 +1,3 @@
+[100%] [32mBuilding CXX object CMakeFiles/image_converter_main.dir/src/image_converter_main.cpp.o
+[0m[31m[1mLinking CXX executable /home/ykha/catkin_ws_hydro/devel/.private/image_converter/lib/image_converter/image_converter_main
+[0m[100%] Built target image_converter_main

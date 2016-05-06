@@ -1,0 +1,6 @@
+devel_space: /home/ykha/catkin_ws_hydro/devel
+install: false
+install_space: /home/ykha/catkin_ws_hydro/install
+profile: default
+source_space: /home/ykha/catkin_ws_hydro/src
+workspace: /home/ykha/catkin_ws_hydro

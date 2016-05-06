@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /opt/ros/hydro/share/genmsg/cmake/genmsg-extras.cmake:89 (message):
+  generate_messages() must be called after add_message_files()
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/hydro/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:70 (add_message_files)
+  CMakeLists.txt:33 (add_action_files)
+
+
+make: *** [cmake_check_build_system] Error 1

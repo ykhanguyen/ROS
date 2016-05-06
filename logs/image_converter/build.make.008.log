@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target image_converter_main
+[0m[100%] [32mBuilding CXX object CMakeFiles/image_converter_main.dir/src/image_converter_main.cpp.o
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp: In function ‘void imageCallback(const ConstPtr&)’:
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:11:32: error: ‘class cv_bridge::CvImage’ has no member named ‘toRos’
+make[2]: *** [CMakeFiles/image_converter_main.dir/src/image_converter_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/image_converter_main.dir/all] Error 2
+make: *** [all] Error 2

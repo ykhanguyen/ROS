@@ -1,0 +1,8 @@
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:70:1: error: expected ‘;’ after class definition
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp: In constructor ‘FibonacciAction::FibonacciAction(std::string)’:
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:37: error: ‘axecuteCB’ is not a member of ‘FibonacciAction’
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp: In member function ‘void FibonacciAction::executeCB(const FibonacciGoalConstPtr&)’:
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:39:9: error: ‘action_name_c’ was not declared in this scope
+make[2]: *** [CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fibonacci_server.dir/all] Error 2
+make: *** [all] Error 2

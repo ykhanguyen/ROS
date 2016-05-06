@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /opt/ros/hydro/share/catkin/cmake/catkinConfig.cmake:75 (find_package):
+  Could not find a configuration file for package ctionlib_msgs.
+
+  Set ctionlib_msgs_DIR to the directory containing a CMake configuration
+  file for ctionlib_msgs.  The file will have one of the following names:
+
+    ctionlib_msgsConfig.cmake
+    ctionlib_msgs-config.cmake
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:7 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

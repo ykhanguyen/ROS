@@ -1,0 +1,8 @@
+prefix=/home/ykha/catkin_ws_hydro/devel/.private/image_converter
+
+Name: image_converter
+Description: Description of image_converter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ykha/catkin_ws_hydro/devel/.private/image_converter/lib 
+Requires: 

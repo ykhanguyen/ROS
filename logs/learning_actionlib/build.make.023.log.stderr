@@ -1,0 +1,5 @@
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_client.cpp:4:23: fatal error: ros / ros.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fibonacci_client.dir/all] Error 2
+make: *** [all] Error 2

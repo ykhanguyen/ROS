@@ -1,0 +1,5 @@
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:69:3: error: expected ‘}’ at end of input
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:69:3: error: expected unqualified-id at end of input
+make[2]: *** [CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fibonacci_server.dir/all] Error 2
+make: *** [all] Error 2

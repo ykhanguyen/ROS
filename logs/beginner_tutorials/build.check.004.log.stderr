@@ -1,0 +1,4 @@
+CMake Error: Error in cmake code at
+/home/ykha/catkin_ws_hydro/src/beginner_tutorials/CMakeLists.txt:39:
+Parse error.  Expected a command name, got right paren with text ")".
+make: *** [cmake_check_build_system] Error 1

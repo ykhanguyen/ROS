@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o -L/home/ykha/catkin_ws_hydro/build/image_converter/gtest/src -lpthread -Wl,-rpath,/home/ykha/catkin_ws_hydro/build/image_converter/gtest/src 

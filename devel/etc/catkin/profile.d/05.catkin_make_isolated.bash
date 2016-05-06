@@ -1,0 +1,1 @@
+/home/ykha/catkin_ws_hydro/devel/.private/catkin_tools_prebuild/etc/catkin/profile.d/05.catkin_make_isolated.bash

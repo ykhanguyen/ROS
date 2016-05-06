@@ -1,0 +1,22 @@
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:7: error: ‘nh_’ is not a type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:12: error: ‘name’ has not been declared
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:25: error: ‘boost::bind’ is not a type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:31: error: expected ‘)’
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:31: error: expected ‘)’
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:31: error: ISO C++ forbids declaration of ‘as_’ with no type [-fpermissive]
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:30: error: expected ‘;’ at end of member declaration
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:31: error: declaration of ‘int FibonacciAction::as_(...)’
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:8:70: error: conflicts with previous declaration ‘actionlib::SimpleActionServer<learning_actionlib::FibonacciAction_<std::allocator<void> > > FibonacciAction::as_’
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:16:31: error: ‘axecuteCB’ in ‘class FibonacciAction’ does not name a type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:68:3: error: expected ‘}’ at end of input
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp: In member function ‘void FibonacciAction::executeCB(const FibonacciGoalConstPtr&)’:
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:37:14: error: ‘((FibonacciAction*)this)->FibonacciAction::as_’ does not have class type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:38:9: error: ‘action_name_c’ was not declared in this scope
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:40:12: error: ‘((FibonacciAction*)this)->FibonacciAction::as_’ does not have class type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:48:10: error: ‘((FibonacciAction*)this)->FibonacciAction::as_’ does not have class type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:57:10: error: ‘((FibonacciAction*)this)->FibonacciAction::as_’ does not have class type
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp: At global scope:
+/home/ykha/catkin_ws_hydro/src/learning_actionlib/src/fibonacci_server.cpp:68:3: error: expected unqualified-id at end of input
+make[2]: *** [CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/fibonacci_server.dir/all] Error 2
+make: *** [all] Error 2

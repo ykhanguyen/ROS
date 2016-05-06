@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ykha/catkin_ws_hydro/devel/.private/catkin_tools_prebuild/setup.sh

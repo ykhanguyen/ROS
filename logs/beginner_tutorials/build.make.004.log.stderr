@@ -1,0 +1,8 @@
+/home/ykha/catkin_ws_hydro/src/beginner_tutorials/src/talker.cpp: In function ‘int main(int, char**)’:
+/home/ykha/catkin_ws_hydro/src/beginner_tutorials/src/talker.cpp:16:13: error: ‘ok’ was not declared in this scope
+/home/ykha/catkin_ws_hydro/src/beginner_tutorials/src/talker.cpp:16:13: note: suggested alternative:
+/opt/ros/hydro/include/ros/init.h:160:18: note:   ‘ros::ok’
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

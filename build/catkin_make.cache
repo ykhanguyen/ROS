@@ -1,0 +1,2 @@
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/ykha/catkin_ws_hydro/devel -DCMAKE_INSTALL_PREFIX=/home/ykha/catkin_ws_hydro/install

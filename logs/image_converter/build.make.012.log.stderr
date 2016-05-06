@@ -1,0 +1,32 @@
+In file included from /opt/ros/hydro/include/ros/serialization.h:37:0,
+                 from /opt/ros/hydro/include/sensor_msgs/Image.h:47,
+                 from /opt/ros/hydro/include/cv_bridge/cv_bridge.h:38,
+                 from /home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:1:
+/opt/ros/hydro/include/ros/message_traits.h: In static member function ‘static const char* ros::message_traits::MD5Sum<M>::value(const M&) [with M = cv::Mat]’:
+/opt/ros/hydro/include/ros/message_traits.h:255:104:   instantiated from ‘const char* ros::message_traits::md5sum(const M&) [with M = cv::Mat]’
+/opt/ros/hydro/include/ros/publisher.h:112:7:   instantiated from ‘void ros::Publisher::publish(const M&) const [with M = cv::Mat]’
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:11:37:   instantiated from here
+/opt/ros/hydro/include/ros/message_traits.h:126:34: error: ‘const class cv::Mat’ has no member named ‘__getMD5Sum’
+/opt/ros/hydro/include/ros/message_traits.h: In static member function ‘static const char* ros::message_traits::DataType<M>::value(const M&) [with M = cv::Mat]’:
+/opt/ros/hydro/include/ros/message_traits.h:264:106:   instantiated from ‘const char* ros::message_traits::datatype(const M&) [with M = cv::Mat]’
+/opt/ros/hydro/include/ros/publisher.h:112:7:   instantiated from ‘void ros::Publisher::publish(const M&) const [with M = cv::Mat]’
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:11:37:   instantiated from here
+/opt/ros/hydro/include/ros/message_traits.h:143:36: error: ‘const class cv::Mat’ has no member named ‘__getDataType’
+In file included from /opt/ros/hydro/include/sensor_msgs/Image.h:47:0,
+                 from /opt/ros/hydro/include/cv_bridge/cv_bridge.h:38,
+                 from /home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:1:
+/opt/ros/hydro/include/ros/serialization.h: In static member function ‘static uint32_t ros::serialization::Serializer<T>::serializedLength(typename boost::call_traits<T>::param_type) [with T = cv::Mat, uint32_t = unsigned int, typename boost::call_traits<T>::param_type = const cv::Mat&]’:
+/opt/ros/hydro/include/ros/serialization.h:172:43:   instantiated from ‘uint32_t ros::serialization::serializationLength(const T&) [with T = cv::Mat, uint32_t = unsigned int]’
+/opt/ros/hydro/include/ros/serialization.h:848:45:   instantiated from ‘ros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = cv::Mat]’
+/opt/ros/hydro/include/ros/publisher.h:118:7:   instantiated from ‘void ros::Publisher::publish(const M&) const [with M = cv::Mat]’
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:11:37:   instantiated from here
+/opt/ros/hydro/include/ros/serialization.h:144:34: error: ‘const class cv::Mat’ has no member named ‘serializationLength’
+/opt/ros/hydro/include/ros/serialization.h: In static member function ‘static void ros::serialization::Serializer<T>::write(Stream&, typename boost::call_traits<T>::param_type) [with Stream = ros::serialization::OStream, T = cv::Mat, typename boost::call_traits<T>::param_type = const cv::Mat&]’:
+/opt/ros/hydro/include/ros/serialization.h:154:3:   instantiated from ‘void ros::serialization::serialize(Stream&, const T&) [with T = cv::Mat, Stream = ros::serialization::OStream]’
+/opt/ros/hydro/include/ros/serialization.h:855:3:   instantiated from ‘ros::SerializedMessage ros::serialization::serializeMessage(const M&) [with M = cv::Mat]’
+/opt/ros/hydro/include/ros/publisher.h:118:7:   instantiated from ‘void ros::Publisher::publish(const M&) const [with M = cv::Mat]’
+/home/ykha/catkin_ws_hydro/src/image_converter/src/image_converter_main.cpp:11:37:   instantiated from here
+/opt/ros/hydro/include/ros/serialization.h:127:5: error: ‘const class cv::Mat’ has no member named ‘serialize’
+make[2]: *** [CMakeFiles/image_converter_main.dir/src/image_converter_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/image_converter_main.dir/all] Error 2
+make: *** [all] Error 2

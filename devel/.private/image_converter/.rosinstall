@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ykha/catkin_ws_hydro/devel/.private/image_converter/setup.sh
