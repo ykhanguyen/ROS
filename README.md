@@ -1,4 +1,4 @@
-ROS (Robot Operating System)
+ROS -- Robot Operating System
 
 This covers some tutorials and mini-projects.
 
