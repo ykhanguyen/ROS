@@ -212,6 +212,19 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named image_converter
+
+# Build rule for target.
+image_converter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_converter
+.PHONY : image_converter
+
+# fast build rule for target.
+image_converter/fast:
+	$(MAKE) -f CMakeFiles/image_converter.dir/build.make CMakeFiles/image_converter.dir/build
+.PHONY : image_converter/fast
+
+#=============================================================================
 # Target rules for targets named image_converter_main
 
 # Build rule for target.
@@ -432,6 +445,30 @@ gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/image_converter.o: src/image_converter.cpp.o
+.PHONY : src/image_converter.o
+
+# target to build an object file
+src/image_converter.cpp.o:
+	$(MAKE) -f CMakeFiles/image_converter.dir/build.make CMakeFiles/image_converter.dir/src/image_converter.cpp.o
+.PHONY : src/image_converter.cpp.o
+
+src/image_converter.i: src/image_converter.cpp.i
+.PHONY : src/image_converter.i
+
+# target to preprocess a source file
+src/image_converter.cpp.i:
+	$(MAKE) -f CMakeFiles/image_converter.dir/build.make CMakeFiles/image_converter.dir/src/image_converter.cpp.i
+.PHONY : src/image_converter.cpp.i
+
+src/image_converter.s: src/image_converter.cpp.s
+.PHONY : src/image_converter.s
+
+# target to generate assembly for a file
+src/image_converter.cpp.s:
+	$(MAKE) -f CMakeFiles/image_converter.dir/build.make CMakeFiles/image_converter.dir/src/image_converter.cpp.s
+.PHONY : src/image_converter.cpp.s
+
 src/image_converter_main.o: src/image_converter_main.cpp.o
 .PHONY : src/image_converter_main.o
 
@@ -468,6 +505,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... image_converter"
 	@echo "... image_converter_main"
 	@echo "... install"
 	@echo "... install/local"
@@ -491,6 +529,9 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... src/image_converter.o"
+	@echo "... src/image_converter.i"
+	@echo "... src/image_converter.s"
 	@echo "... src/image_converter_main.o"
 	@echo "... src/image_converter_main.i"
 	@echo "... src/image_converter_main.s"

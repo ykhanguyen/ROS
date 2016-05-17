@@ -95,24 +95,26 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
-## Declare a cpp library
-# add_library(image_converter
-#   src/${PROJECT_NAME}/image_converter.cpp
-# )
+add_library(image_converter
+   src/image_converter.cpp
+ )
+add_dependencies(image_converter image_converter_generate_messages_cpp)
+target_link_libraries(
+  image_converter
+  ${catkin_LIBRARIES}
+)
 
-## Declare a cpp executable
 add_executable(image_converter_main src/image_converter_main.cpp)
-
-## Add cmake target dependencies of the executable/library
-## as an example, message headers may need to be generated before nodes
-add_dependencies(image_converter_main image_converter_generate_messages_cpp)
-
-## Specify libraries to link a library or executable target against
+add_dependencies(image_converter_main  
+  image_converter
+  image_converter_generate_messages_cpp)
 target_link_libraries(
   image_converter_main
+  image_converter
   ${catkin_LIBRARIES}
 )
 
