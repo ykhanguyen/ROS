@@ -1,6 +1,6 @@
 #include "image_converter/image_converter.h"
 #include <cv_bridge/cv_bridge.h>
-
+// this is the class for image_converter
 namespace image_converter {
 ImageConverter::ImageConverter(const ros::Publisher& pub) : pub_(pub) {}
 void ImageConverter::Callback(const sensor_msgs::Image::ConstPtr& msg) {
